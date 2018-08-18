@@ -1,0 +1,119 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYB5QB_c7IDCGu7IcnWm1-AFW8E9T0IlR-akdO7YU6Gruk6p6U');
+ font-family: 'Lato', sans-serif; 
+}
+
+.container {
+  border-radius: 0.8%;
+  border: 3px solid darkgreen;
+  width: 845px;
+  height: 990px;
+  background: #FFF;
+  margin: 0 auto;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#title {
+  color: darkgreen;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-top: 50px;
+}
+
+#description {
+  font-size: 18px;
+  font-weight: 800;
+  padding-bottom: 12px;
+}
+
+#survey-form {
+  text-align: center;
+}
+
+#name-label {
+  margin-left: -18px;
+  padding: 5px;
+}
+
+input {
+  width: 275px;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+#city-label {
+  margin-left: 70px;
+}
+
+#state-label {
+  margin-left: 8px;
+}
+
+select#dropdown {
+  width: 50px;
+  height: 30px;
+}
+
+#number-label {
+  margin-left: -67px;
+}
+
+input#number {
+  width: 200px;
+}
+
+#phone-label {
+  margin-left: -22px;
+}
+
+input#phone {
+  width: 200px;
+}
+
+.contact {
+  padding-top: 15px;
+}
+
+input[type="radio"] {
+  width: 40px;
+}
+
+.email{
+  padding-top: 20px;
+}
+
+.comments {
+  padding-top: 10px;
+}
+
+label#comment {
+  color: darkgreen;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+textarea {
+  margin-top: 5px;
+}
+
+.info p {
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+input[type="checkbox"] {
+  width: 35px;
+}
+
+input#submit {
+  background-color: green;
+  border-radius: 5%;
+  color: white;
+  margin-top: 10px;
+  width: 155px;
+  height: 40px;
+}
+
